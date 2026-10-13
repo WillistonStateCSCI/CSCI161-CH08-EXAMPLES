@@ -1,13 +1,8 @@
-import com.zybooks.dsaj.util.Position;
+import Extras.Position;
 import java.util.ArrayList;
 
 /** Several applications of tree traversals. */
 public class TraversalExamples {
-
-    /** Returns a string containing n spaces. */
-    public static String spaces(int n) {
-        return com.zybooks.dsaj.asymptotics.StringExperiment.repeat2(' ', n);
-    }
 
     public static <E> void printPreorder(AbstractTree<E> T) {
         for (Position<E> p : T.preorder())

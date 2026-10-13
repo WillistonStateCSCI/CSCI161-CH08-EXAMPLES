@@ -1,6 +1,7 @@
-import com.zybooks.dsaj.util.Position;
-import com.zybooks.dsaj.stackqueue.Queue;
-import com.zybooks.dsaj.stackqueue.LinkedQueue;
+package EX08_02;
+import Extras.Position;
+import Extras.Queue;
+import Extras.LinkedQueue;
 import java.util.Iterator;
 import java.util.List;         // for use as snapshot iterator
 import java.util.ArrayList;    // for use as snapshot iterator
